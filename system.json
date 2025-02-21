@@ -22,7 +22,7 @@
 		"maximum": "12"
 	},
 	"esmodules": [
-		"module/otherscape.js"
+		"module/otherscape.ts"
   ],
   "styles": [
 	  "module/token-tooltip/tooltip.css",
