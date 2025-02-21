@@ -75,5 +75,5 @@
   ],
   "socket": true,
   "manifest": "https://raw.githubusercontent.com/tnntwister/otherscape/main/system.json",
-  "download": "https://github.com/tnntwister/otherscape/releases/download/v.3.1.5/city-of-mist.zip"
+  "download": "https://github.com/tnntwister/otherscape/releases/download/v.3.1.5/otherscape.zip"
 }
