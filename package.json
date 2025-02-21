@@ -1,7 +1,7 @@
 {
   "name": "otherscape",
   "version": "1.0.0",
-  "description": "City of Mist system for Foundry VTT",
+  "description": "Otherscape system for Foundry VTT",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
