@@ -1,32 +1,34 @@
 {
-	"id": "city-of-mist",
-	"title": "City of Mist",
-	"description": "Unofficial City of Mist RPG system",
+	"id": "otherscape",
+	"title": "Otherscape",
+	"description": "Unofficial Tokyo:Otherscape RPG system",
 	"authors": [
 		{
 			"name": "Taragnor",
 			"discord": "Taragnor#3338",
 			"flags": {}
+		},
+		{
+			"name": "François-Xavier Guillois",
+			"discord": "tnntwister",
+			"flags": {}
 		}
 	],
-	"url": "https://github.com/taragnor/city-of-mist/",
-	"version": "3.1.4",
+	"url": "https://github.com/tnntwister/otherscape",
+	"version": "3.1.5",
 	"compatibility": {
 		"minimum": "12",
 		"verified": "12",
 		"maximum": "12"
 	},
 	"esmodules": [
-		"module/city.js"
+		"module/otherscape.js"
   ],
   "styles": [
-	  "styles/city.css",
 	  "module/token-tooltip/tooltip.css",
 	  "module/city-status-tracker/city-status-tracker.css",
 	  "styles/com.css",
-	  "styles/otherscape.css",
-	  "styles/legend.css",
-	  "styles/mist-engine.css"
+	  "styles/otherscape.css"
   ],
   "languages": [
 	  {
@@ -36,42 +38,11 @@
 		  "flags": {}
 	  },
 	  {
-		  "lang": "de",
-		  "name": "German",
-		  "path": "lang/de.json",
-		  "flags": {}
-	  },
-	  {
-		  "lang": "pl",
-		  "name": "Polish",
-		  "path": "lang/pl.json",
-		  "flags": {}
-	  },
-	  {
-		  "lang": "pt-BR",
-		  "name": "Português (Brasil)",
-		  "path": "lang/pt-br.json",
-		  "flags": {}
-	  },
-	  {
 		  "lang": "fr",
 		  "name": "French",
 		  "path": "lang/fr.json",
 		  "flags": {}
-	  },
-	  {
-		  "lang": "it",
-		  "name": "Italian",
-		  "path": "lang/it.json",
-		  "flags": {}
-	  },
-	  {
-		  "lang": "es",
-		  "name": "Español (placeholder)",
-		  "path": "lang/es.json",
-		  "flags": {}
 	  }
-
   ],
   "packs": [
     {
@@ -103,6 +74,6 @@
     }
   ],
   "socket": true,
-  "manifest": "https://raw.githubusercontent.com/taragnor/city-of-mist/main/system.json",
-  "download": "https://github.com/taragnor/city-of-mist/releases/download/v.3.1.4/city-of-mist.zip"
+  "manifest": "https://raw.githubusercontent.com/tnntwister/otherscape/main/system.json",
+  "download": "https://github.com/tnntwister/otherscape/releases/download/v.3.1.5/city-of-mist.zip"
 }
